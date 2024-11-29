@@ -53,16 +53,17 @@ def Check_carte(body,exdate):
      
     IsExisteCarte = existe_carte(body)
     if(IsExisteCarte == 0):
-        if(check_date(exdate)):
-            response_type = 'REV'
-            status_code = '100'  
-            action_code = '2333'  
-            message = success_codes[int(status_code)]
-        else :
-            response_type = 'REIV'
-            status_code = '203'
-            action_code = '2433'
-            message = client_error_codes[(int)(status_code)]  
+        if(check_Last_Use(body)):
+            if(check_date(exdate)):
+                response_type = 'REV'
+                status_code = '100'  
+                action_code = '2333'  
+                message = success_codes[int(status_code)]
+            else :
+                response_type = 'REIV'
+                status_code = '203'
+                action_code = '2433'
+                message = client_error_codes[(int)(status_code)]  
     else:
         response_type = 'REIV'
         status_code = '204'  
@@ -72,8 +73,26 @@ def Check_carte(body,exdate):
     return response
 
 
-def Check_station(body):
-    return
+def Check_station(id_station):
+    if(etat_station(id_station) == 1):
+        return print("Station n'existe pas")
+    
+    statut_ST = etat_station(id_station)[0]
+    if(statut_ST == 'Ouverte'):
+        print("la station est ouverte")
+        response_type = 'REV'
+        status_code = '100'  
+        action_code = '2533'  
+        message = success_codes[int(status_code)] + " station est ouverte "
+    if(statut_ST in ('Fermé', 'Travaux')):
+        print("la station est fermée")
+        response_type = 'REIV'
+        status_code = '405'  
+        action_code = '2633'  
+        message = success_codes[int(status_code)]       
+        
+    reponse = Response(response_type,status_code,action_code,message,timestamp)
+    return reponse
 
 def Check_borne(id_borne,id_station):
     if etat_borne(id_borne) == 1:
@@ -215,5 +234,56 @@ def Update_data(id_carte, id_borne):
     return Response(response_type, status_code, action_code, message, timestamp)
 
 
+def check_Last_Use(id_carte):
+    query = f"""
+        SELECT dateheurs from badge WHERE id_adherent = (SELECT id_adherent FROM carte WHERE numero = '{id_carte}')
+        ORDER BY dateheurs DESC
+        LIMIT 1;
+        """ 
+# a changé pour s'adapter a la bonne base de donnée
+    result =  getFirstFromQuery(query)
+    print(result)
+    if not result:
+        return 1
+    else:
+        given_date = datetime.strptime(result[0], "%Y-%m-%d %H:%M:%S")
+
+        current_date = datetime.now()
+
+        time_difference = current_date - given_date
+
+        # Check if the difference is less than 2 minutes
+        if time_difference < timedelta(minutes=2):
+            return 2
+        else :
+            return 0
+
             
-        
+def Respond_LastUse(id_carte):
+    last_use = check_Last_Use(id_carte)
+    print(last_use)
+    if last_use == 1:
+        response_type = 'REIV'  
+        status_code = '404'  # Indicating no recent use found
+        action_code = '2434'  # Code for this specific scenario
+        message = "Aucune validation récente trouvée pour cette carte"
+    elif last_use == 2:
+        response_type = 'REIV'  
+        status_code = '405'     
+        action_code = '2433'    
+        message = "Vous venez de valider, vous ne pouvez pas revalider"
+    elif last_use == 0:
+        response_type = 'REV'  
+        status_code = '100'     
+        action_code = '2333'    
+        message = "Carte validée il y a plus de 2 minutes"
+    else:
+        response_type = 'REIV'
+        status_code = '500'
+        action_code = '0000'
+        message = "Erreur inconnue"
+
+    return Response(response_type, status_code, action_code, message, timestamp)
+
+
+    

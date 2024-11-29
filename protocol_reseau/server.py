@@ -1,7 +1,7 @@
 import socket
 from datetime import datetime, timedelta
 import time
-from Cheching import Check_carte,Check_borne,Update_data
+from Cheching import Check_carte,Check_borne,Update_data,Check_station,Respond_LastUse
 
 # Define the response status codes and action codes
 
@@ -36,6 +36,30 @@ def handle_request(data):
             id_borne = parsed_data.get("id_borne", "").strip()
             date_exp = datetime.strptime(date_ex, "%d-%m-%Y")
             response = Check_carte(id_carte, date_exp)
+            res_reponse = (
+                f"response_type:{response.response_type} | "
+                f"status_code:{response.status_code} | "
+                f"action_code:{response.action_code} | "
+                f"message:{response.message} | "
+                f"timestamp:{response.timestamp}"
+            )
+            return res_reponse
+        
+        elif type_req == 'R_ST' and request_id == '1021': 
+            id_station = parsed_data.get("id_station", "").strip()
+            response = Check_station(id_station)
+            res_reponse = (
+                f"response_type:{response.response_type} | "
+                f"status_code:{response.status_code} | "
+                f"action_code:{response.action_code} | "
+                f"message:{response.message} | "
+                f"timestamp:{response.timestamp}"
+            )
+            return res_reponse
+        
+        elif type_req == 'R_DU' and request_id == '1041': 
+            id_carte = parsed_data.get("id_carte", "").strip()
+            response = Respond_LastUse(id_carte)
             res_reponse = (
                 f"response_type:{response.response_type} | "
                 f"status_code:{response.status_code} | "
