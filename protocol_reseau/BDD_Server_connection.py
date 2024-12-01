@@ -1,51 +1,98 @@
 import psycopg2
 
-# Paramètres de connexion
-host = "localhost"            # Adresse du serveur (ex : "localhost" pour une connexion locale)
-database = "TransportDB"     # Nom de la base de données à laquelle se connecter
-user = "postgres"       # Nom de l'utilisateur PostgreSQL
-password = "4252"      # Mot de passe de cet utilisateur
+# Fonction pour lire le fichier de configuration
+def read_config(file_path):
+    config = {}
+    try:
+        with open(file_path, 'r') as file:
+            for line in file:
+                # Ignorer les lignes vides et les commentaires
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+
+                # Diviser la ligne en clé et valeur
+                if "=" in line:
+                    key, value = line.split("=", 1)
+                    config[key.strip()] = value.strip()
+    except Exception as e:
+        print(f"Erreur lors de la lecture du fichier de configuration : {e}")
+    return config
+
+# Lecture de la configuration depuis le fichier
+config = read_config(r"protocol_reseau\Config.conf")
+
+# Récupération des paramètres de connexion à partir du fichier de configuration
+bdhost = config.get("bdhost")
+database = config.get("database")
+user = config.get("user")
+password = config.get("password")
+port = config.get("bdport")
+
+print(bdhost, database, user, password, port)
 
 # Connexion et exécution de la requête
 try:
-    # Établir la connexion
+    # Établir la connexion à la base de données PostgreSQL
     conn = psycopg2.connect(
-        host=host,
+        host=bdhost,
         database=database,
         user=user,
-        password=password
+        password=password,
+        port=port
     )
     print("Connexion réussie à la base de données")
 
-    # Créer un curseur pour exécuter des requêtes
+    # Créer un curseur pour exécuter des requêtes SQL
     with conn.cursor() as cursor:
-        # Requête de test : obtenir la version de PostgreSQL
+        # Exemple de requête : récupérer la version PostgreSQL
         cursor.execute("SELECT version()")
-        # Récupérer et afficher le résultat de la requête
+        # Afficher le résultat de la requête
         version = cursor.fetchall()
-        print(f"version : {version[0]}")
+        print(f"Version : {version[0]}")
 
 except Exception as e:
-    print(f"Erreur lors de la connexion ou de la requête : {e}")
+    # Gestion des erreurs de connexion ou de requête
+    print(f"Erreur lors de la connexion ou de l'exécution de la requête : {e}")
 
-
-
+# Fonction pour exécuter une requête et retourner tous les résultats
 def getFromQuery(query):
-    with conn.cursor() as cursor:
-        cursor.execute(query)
-        return cursor.fetchall()
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(query)
+            return cursor.fetchall()
+    except Exception as e:
+        print(f"Erreur lors de l'exécution de la requête : {query}")
+        print(f"Détail de l'erreur : {e}")
+        conn.rollback()  # Annuler la transaction en cas d'erreur
+        return None
 
-
+# Fonction pour exécuter une requête et retourner uniquement le premier résultat
 def getFirstFromQuery(query):
-    with conn.cursor() as cursorF:
-        cursorF.execute(query)
-        return cursorF.fetchone()
-    
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(query)
+            return cursor.fetchone()
+    except Exception as e:
+        print(f"Erreur lors de l'exécution de la requête : {query}")
+        print(f"Détail de l'erreur : {e}")
+        conn.rollback()  # Annuler la transaction en cas d'erreur
+        return None
+
+# Fonction pour insérer des données dans la base et valider la transaction
 def InsertInDataBase(query):
-    with conn.cursor() as cursor:
-        cursor.execute(query)
-        conn.commit()
-        return cursor
-    
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(query)
+            conn.commit()  # Valider la transaction si tout s'est bien passé
+            return cursor
+    except Exception as e:
+        print(f"Erreur lors de l'insertion : {query}")
+        print(f"Détail de l'erreur : {e}")
+        conn.rollback()  # Annuler la transaction en cas d'erreur
+        return None
+
+# Fonction pour fermer la connexion à la base de données
 def closeCnx():
     conn.close()
+    print("Connexion à la base de données fermée")

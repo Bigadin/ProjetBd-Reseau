@@ -15,7 +15,8 @@ client_error_codes = {
     201: "La requête est mal fournie (exemple : carte endommagée)",
     202: "Pas autorisé (carte invalide)",
     203: "Date d’expiration atteinte",
-    204: "Utilisateur introuvable"
+    204: "Utilisateur introuvable",
+    205: "Vous avez deja validier"
 }
 
 server_error_codes = {
