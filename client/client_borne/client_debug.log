@@ -1,0 +1,1179 @@
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 11:59:05
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REIV | status_code:405 | action_code:2433 | message:Vous venez de valider, vous ne pouvez pas revalider | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: REIV|301|256|2433|Server error: Response.__init__() missing 1 required positional argument: 'timestamp'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:08:03
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: REIV|301|256|2433|Server error: Response.__init__() takes 5 positional arguments but 6 were given|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: REIV|301|256|2433|Server error: name 'timestamp' is not defined|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:09:17
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 12:09:17
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 12:09:17
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:09:22
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 12:09:22
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 12:09:22
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:14:39
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 12:14:39
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:14:39
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 12:14:39
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REIV | status_code:405 | action_code:2433 | message:Vous venez de valider, vous ne pouvez pas revalider | timestamp:2024-11-30 12:14:27
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:21:49
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 12:21:49
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:21:49
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 12:21:49
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REIV | status_code:405 | action_code:2433 | message:Vous venez de valider, vous ne pouvez pas revalider | timestamp:2024-11-30 12:14:27
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 12:22:56
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 12:22:56
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 12:22:56
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement r�ussi! | timestamp:2024-11-30 11:59:05
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REIV | status_code:405 | action_code:2433 | message:Vous venez de valider, vous ne pouvez pas revalider | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REIV | status_code:205 | action_code:2733 | message:Vous n avez pas valide | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement r�ussi! | timestamp:2024-11-30 11:59:05
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:03:51
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:03:51
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:03:51
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REV | status_code:100 | action_code:2333 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:03:48
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:06:32
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:06:32
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:06:32
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:06:28
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 13:06:32
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:07:34
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:07:34
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 13:07:34
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:30:42
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:30:42
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:30:42
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:30:35
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 13:30:42
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:31:59
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:31:59
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 13:31:59
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:32:43
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:32:43
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:32:43
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:31:56
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 13:32:43
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:32:49
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:32:49
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 13:32:49
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:33:02
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:33:02
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 13:33:02
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:48:59
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:48:59
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:48:59
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:48:56
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:49:35
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 13:49:35
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 13:49:35
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:48:56
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 13:49:35
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes station est ouverte  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Op�ration effectu�e avec succ�s sans probl�mes | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: ---------------------------------------- response_type:REIV | status_code:405 | action_code:2433 | message:Vous venez de valider, vous ne pouvez pas revalider | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:00:48
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:00:48
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:00:48
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:00:50
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:00:50
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:00:50
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:05:52
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:05:52
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:05:52
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:06:04
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:06:04
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:06:04
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:06:18
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:06:18
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:06:18
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:08:49
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:08:49
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:08:49
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:10:59
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:10:59
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:10:59
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:11:18
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:11:18
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:11:18
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:14:48
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:15:51
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:16:01
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:16:01
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:16:01
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 14:16:01
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:19:11
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:19:11
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:19:11
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 13:59:54
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 14:19:11
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:19:27
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:29:09
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 14:29:12
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:29:24
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:29:24
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:4897qSD|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: ERREUR:  syntaxe en entrée invalide pour le type integer : « 4897qSD »
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: de la transaction
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: |
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:48977554|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:30:12
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:30:12
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:30:12
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:30:16
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:30:16
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:30:16
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:30:20
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:30:20
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:4897A7554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: ERREUR:  syntaxe en entrée invalide pour le type integer : « 4897A7554 »
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: de la transaction
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: |
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:48977554|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: de la transaction
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: |
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:48977554|
+Response: REIV|301|256|2433|Server error: ERREUR:  la transaction est annulée, les commandes sont ignorées jusqu'à la fin du bloc
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:33:29
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:33:29
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:33:29
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:33:41
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:33:41
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:489A77554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:33:41
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:33:50
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:33:50
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:489A77AA554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:33:50
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:33:59
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:33:59
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:48977554|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-11-30 14:33:59
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:34:07
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 14:34:07
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 14:34:07
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 14:33:23
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 14:34:07
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 15:21:50
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 15:21:50
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 15:21:50
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 14:37:54
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 15:21:50
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:message peronnalise | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message: message personnalise 2  | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response:  response_type:REV | status_code:100 | action_code:2333 | message: ms pers 3 et client existe | timestamp:2024-11-30 11:51:19
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response:  response_type:REV | status_code:100 | action_code:2733 | message: ms pers 4 Carte valid�e il y a plus de 2 minutes | timestamp:2024-11-30 14:33:23
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response:  response_type:REV | status_code:100 | action_code:000 | message: ms pers 5 Enregistrement r�ussi! | timestamp:2024-11-30 14:34:07
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 16:59:30
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 16:59:30
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 16:59:30
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 16:59:23
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 16:59:30
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:00:03
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:00:03
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 17:00:03
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:04:58
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:04:58
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:04:58
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 17:04:55
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 17:04:58
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:08:34
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:08:34
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:08:34
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 17:08:30
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 17:08:34
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:34:17
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:34:17
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:34:17
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 17:34:15
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 17:34:17
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST000@003|
+Response: REIV|301|256|2433|Server error: 'NoneType' object has no attribute 'response_type'|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST000@003|
+Response: REIV|301|256|2433|Server error: 'NoneType' object has no attribute 'response_type'|
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 17:34:35
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST000@003|
+Response: REIV|301|256|2433|Server error: 'NoneType' object has no attribute 'response_type'|
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST000@003|
+Response: response_type:REIV | status_code:405 | action_code:2633 | message:Station n'existe pas | timestamp:2024-11-30 17:36:02
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST000@003|
+Response: response_type:REIV | status_code:402 | action_code:000 | message:Station n'existe pas | timestamp:2024-11-30 17:38:04
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST000@003|
+Response: response_type:REIV | status_code:405 | action_code:2633 | message:Station n'existe pas | timestamp:2024-11-30 17:38:04
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST000@003|
+Response: response_type:REIV | status_code:402 | action_code:2633 | message:Station n'existe pas | timestamp:2024-11-30 17:39:25
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST0000003|
+Response: response_type:REIV | status_code:402 | action_code:2633 | message:Station n'existe pas | timestamp:2024-11-30 17:39:39
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:39:58
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:39:58
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:39:58
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 17:39:22
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 17:39:58
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 17:40:20
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 17:40:20
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 17:40:20
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:35:30
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:35:30
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 22:35:30
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:36:17
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:36:17
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 22:36:17
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:39:51
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:39:51
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 22:39:51
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:41:50
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:41:50
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:41:50
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 22:41:47
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 22:41:50
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:41:56
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:41:56
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 22:41:56
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:43:22
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:43:23
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: REIV|301|256|2433|Server error: time data '2025-12-15 13' does not match format '%d-%m-%Y'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:48:49
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:48:49
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 22:48:49
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:53:34
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:53:34
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:15-12-2025|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 22:53:34
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:56:42
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:56:42
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 22:56:42
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:57:13
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:57:13
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 22:57:13
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 22:59:41
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 22:59:41
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: REIV|301|256|2433|Server error: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:03:02
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:03:02
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: REIV|301|256|2433|Server error: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:04:04
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:04:04
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: REIV|301|256|2433|Server error: time data '2025-12-15 13' does not match format '%d-%m-%Y %H:%M:%S'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:05:02
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:05:02
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13:47:25|
+Response: REIV|301|256|2433|Server error: time data '2025-12-15 13' does not match format '%Y-%m-%d %H:%M:%S'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:06:22
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:06:22
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15 13/47/25|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 23:06:22
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:08:16
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:08:17
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: REIV|301|256|2433|Server error: time data '2025-12-15' does not match format '%Y-%m-%d %H/%M/%S'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: REIV|301|256|2433|Server error: strptime() argument 1 must be str, not datetime.datetime|
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:08:34
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:08:34
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Error: strptime() argument 1 must be str, not datetime.datetime | timestamp:2024-11-30 23:08:34
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:13:35
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:13:35
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:13:35
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:890123456|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-11-30 23:13:32
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:890123456|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-11-30 23:13:35
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:13:44
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000003|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:13:44
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 23:13:44
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000002|id_station:ST00000003|
+Response: response_type:REIV | status_code:404 | action_code:2633 | message:Borne en arrêt  | timestamp:2024-11-30 23:14:00
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN000000|id_station:ST00000003|
+Response: response_type:REIV | status_code:401 | action_code:2633 | message:Borne n'existe pas | timestamp:2024-11-30 23:14:11
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:14:23
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:14:23
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 23:14:23
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000002|
+Response: response_type:REIV | status_code:405 | action_code:2633 | message:Station fermée | timestamp:2024-11-30 23:14:38
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-11-30 23:14:48
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-11-30 23:14:48
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:890123456|date_exp:2025-12-15|
+Response: response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-11-30 23:14:48
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:48:23
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:48:23
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2023-01-25|
+Response: response_type:REIV | status_code:203 | action_code:2433 | message:Date d’expiration atteinte | timestamp:2024-12-01 10:48:23
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:48:48
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:48:48
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-04-3|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:48:48
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:123456789|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 10:48:02
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 10:48:48
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:49:59
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:49:59
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:456754|date_exp:2025/56/87|
+Response: REIV|301|256|2433|Server error: time data '2025/56/87' does not match format '%Y-%m-%d'|
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:456754|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 10:48:02
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:456754|id_borne:BN00000001|
+Response: response_type:REIV | status_code:405 | action_code:2633 | message:Pas d'adhérent lié à cette carte! | timestamp:2024-12-01 10:49:59
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:57:47
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:57:47
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:456487|date_exp:21/89/4|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Server error: time data '21/89/4' does not match format '%Y-%m-%d' | timestamp:2024-12-01 10:57:47
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:58:18
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:58:18
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:1234877|date_exp:2024-2-3|
+Response: response_type:REIV | status_code:204 | action_code:2433 | message:Utilisateur introuvable | timestamp:2024-12-01 10:58:18
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:58:37
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:58:37
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2023+2-9|
+Response: response_type:REIV | status_code:500 | action_code:2433 | message:Server error: time data '2023+2-9' does not match format '%Y-%m-%d' | timestamp:2024-12-01 10:58:37
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:58:51
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:58:51
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2023-9-5|
+Response: response_type:REIV | status_code:203 | action_code:2433 | message:Date d’expiration atteinte | timestamp:2024-12-01 10:58:51
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:59:08
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 10:59:08
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-3-9|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 10:59:08
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:123456789|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 10:57:36
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 10:59:08
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 11:04:37
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 11:04:37
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-6-9|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 11:04:37
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:123456789|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 11:04:19
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 11:04:37
+----------------------------------------
+Request: requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 11:14:58
+----------------------------------------
+Request: requestType:R_ST|requestId:1021|id_station:ST00000001|
+Response: response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 11:14:58
+----------------------------------------
+Request: requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-3-9|
+Response: response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 11:14:59
+----------------------------------------
+Request: requestType:R_DU|requestId:1041|id_carte:123456789|
+Response: response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 11:14:47
+----------------------------------------
+Request: requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Response: response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 11:14:59
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:12:17
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 18:12:17
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-06-03|
+Réponse : response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:12:17
+----------------------------------------
+Requête : requestType:R_DU|requestId:1041|id_carte:123456789|
+Réponse : response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 18:12:01
+----------------------------------------
+Requête : requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Réponse : response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 18:12:17
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:14:04
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes station est ouverte  | timestamp:2024-12-01 18:14:04
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:987654321|date_exp:2025-06-02|
+Réponse : response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:14:04
+----------------------------------------
+Requête : requestType:R_DU|requestId:1041|id_carte:987654321|
+Réponse : response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 18:13:53
+----------------------------------------
+Requête : requestType:R_JI|requestId:721|id_carte:987654321|id_borne:BN00000001|
+Réponse : response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi! | timestamp:2024-12-01 18:14:04
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:20:15
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes Station ouverte. | timestamp:2024-12-01 18:20:15
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-03-09|
+Réponse : response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:20:15
+----------------------------------------
+Requête : requestType:R_DU|requestId:1041|id_carte:123456789|
+Réponse : response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 18:20:02
+----------------------------------------
+Requête : requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Réponse : response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi ! | timestamp:2024-12-01 18:20:15
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:21:44
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes Station ouverte. | timestamp:2024-12-01 18:21:44
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:987654321|date_exp:2025-03-06|
+Réponse : response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:21:44
+----------------------------------------
+Requête : requestType:R_DU|requestId:1041|id_carte:987654321|
+Réponse : response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 18:21:32
+----------------------------------------
+Requête : requestType:R_JI|requestId:721|id_carte:987654321|id_borne:BN00000001|
+Réponse : response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi ! | timestamp:2024-12-01 18:21:44
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:22:04
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes Station ouverte. | timestamp:2024-12-01 18:22:04
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:987654321|date_exp:2025-06-03|
+Réponse : response_type:REIV | status_code:205 | action_code:2433 | message:Vous avez deja validier | timestamp:2024-12-01 18:22:04
+----------------------------------------
+Requête : requestType:R_BRI|requestId:1001|id_borne:BN00000001|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:42:54
+----------------------------------------
+Requête : requestType:R_ST|requestId:1021|id_station:ST00000001|
+Réponse : response_type:REV | status_code:100 | action_code:2533 | message:OK/Opération effectuée avec succès sans problèmes Station ouverte. | timestamp:2024-12-01 18:42:54
+----------------------------------------
+Requête : requestType:R_CI|requestId:1031|id_carte:123456789|date_exp:2025-03-09|
+Réponse : response_type:REV | status_code:100 | action_code:2333 | message:OK/Opération effectuée avec succès sans problèmes | timestamp:2024-12-01 18:42:54
+----------------------------------------
+Requête : requestType:R_DU|requestId:1041|id_carte:123456789|
+Réponse : response_type:REV | status_code:100 | action_code:2733 | message:Carte validée il y a plus de 2 minutes | timestamp:2024-12-01 18:21:32
+----------------------------------------
+Requête : requestType:R_JI|requestId:721|id_carte:123456789|id_borne:BN00000001|
+Réponse : response_type:REV | status_code:100 | action_code:000 | message:Enregistrement réussi ! | timestamp:2024-12-01 18:42:54
+----------------------------------------
