@@ -239,7 +239,7 @@ print("Badging réussi" if result == 0 else "Erreur lors du badging")
 ```
 
 
-# Description programme Client
+# Documentation du programme Client (`Client.java`)
 
 Ce programme est un client Java qui interagit avec un serveur pour effectuer une série de vérifications liées à une borne, une station, une carte, et la dernière utilisation d'une carte. Le programme utilise un fichier de configuration pour récupérer les paramètres nécessaires et gère les étapes de connexion, requêtes, et déconnexion avec le serveur. 
 
